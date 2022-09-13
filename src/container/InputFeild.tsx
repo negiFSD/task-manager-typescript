@@ -19,7 +19,7 @@ const InputFeild= ({todo, setTodo, handleAdd}:inputFeildProps) => {
         >
           <input
             type="text"
-            placeholder="Enter a Todo"
+            placeholder="Enter your task"
             value={todo}
             ref={inputRef}
             onChange={(e) => setTodo(e.target.value)}
